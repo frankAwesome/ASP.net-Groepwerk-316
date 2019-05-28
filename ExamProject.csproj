@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=18.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.18.1.1\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -67,29 +70,60 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Error.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="Images\burst time.PNG" />
+    <Content Include="Images\byWho.PNG" />
+    <Content Include="Images\icons8-add-new-filled-50.png" />
+    <Content Include="Images\icons8-appointment-scheduling-filled-50.png" />
+    <Content Include="Images\icons8-appointment-scheduling-filled-50RED.png" />
+    <Content Include="Images\icons8-appointment-scheduling-filled-50WHITE.png" />
+    <Content Include="Images\icons8-appointment-scheduling-filled-50YELLOW.png" />
     <Content Include="Images\icons8-dog-house-filled-50.png" />
     <Content Include="Images\icons8-dog-house-filled-50WHITE.png" />
+    <Content Include="Images\icons8-plus-64.png" />
     <Content Include="Images\icons8-plus-sign-filled-50.png" />
     <Content Include="Images\icons8-plus-sign-filled-50WHITE.png" />
     <Content Include="Images\icons8-replace-filled-50.png" />
     <Content Include="Images\icons8-replace-filled-50WHITE.png" />
+    <Content Include="Images\icons8-slider--filled-50.png" />
+    <Content Include="Images\icons8-slider--filled-50WHITE.png" />
+    <Content Include="Images\icons8-trophy-filled-50.png" />
     <Content Include="Images\icons8-view-filled-50.png" />
     <Content Include="Images\icons8-view-filled-50WHITE.png" />
+    <Content Include="Images\MQ logo.PNG" />
     <Content Include="Images\new text.PNG" />
     <Content Include="Images\oldtext.PNG" />
+    <Content Include="Images\process1.PNG" />
+    <Content Include="Images\process2.PNG" />
+    <Content Include="Images\process3.PNG" />
+    <Content Include="Images\process4.PNG" />
     <Content Include="Images\renderforest-logo2.jpg" />
     <Content Include="Images\renderforest-logo3.png" />
+    <Content Include="Images\renderforest-logo3INVERT.png" />
     <Content Include="Images\replacer.PNG" />
+    <Content Include="Images\results.PNG" />
     <Content Include="Images\sep-18-batmom-cal-1920x1080.png" />
+    <Content Include="Images\start time.PNG" />
+    <Content Include="Images\timequantum.PNG" />
     <Content Include="Images\viewtext.PNG" />
     <Content Include="Images\welcome 316.PNG" />
     <Content Include="Replace.aspx" />
+    <Content Include="SchedulingForm1.aspx" />
+    <Content Include="SchedulingForm2.aspx" />
+    <Content Include="SchedulingForm3.aspx" />
     <Content Include="TextFile.txt" />
     <Content Include="View.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -104,6 +138,27 @@
     </Compile>
     <Compile Include="Replace.aspx.designer.cs">
       <DependentUpon>Replace.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SchedulingForm1.aspx.cs">
+      <DependentUpon>SchedulingForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SchedulingForm1.aspx.designer.cs">
+      <DependentUpon>SchedulingForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SchedulingForm2.aspx.cs">
+      <DependentUpon>SchedulingForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SchedulingForm2.aspx.designer.cs">
+      <DependentUpon>SchedulingForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SchedulingForm3.aspx.cs">
+      <DependentUpon>SchedulingForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SchedulingForm3.aspx.designer.cs">
+      <DependentUpon>SchedulingForm3.aspx</DependentUpon>
     </Compile>
     <Compile Include="View.aspx.cs">
       <DependentUpon>View.aspx</DependentUpon>

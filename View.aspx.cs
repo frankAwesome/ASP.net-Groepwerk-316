@@ -41,5 +41,10 @@ namespace ExamProject
             TextBox1.Text = line;
             sr.Close();
         }
+
+        protected void ImageButton5_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("SchedulingForm1.aspx");
+        }
     }
 }
