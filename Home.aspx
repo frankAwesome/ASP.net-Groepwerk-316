@@ -20,6 +20,10 @@
             <asp:ImageButton ID="ImageButton3" runat="server" Height="45px" ImageUrl="~/Images/icons8-view-filled-50.png" OnClick="ImageButton3_Click" />
             &nbsp;&nbsp;
             <asp:ImageButton ID="ImageButton4" runat="server" Height="45px" ImageUrl="~/Images/icons8-appointment-scheduling-filled-50.png" OnClick="ImageButton4_Click" />
+            &nbsp;&nbsp;
+            <asp:ImageButton ID="ImageButton5" runat="server" Height="45px" ImageUrl="~/Images/icons8-slider--filled-50.png" style="margin-top: 0px" />
+            &nbsp;
+            <asp:ImageButton ID="ImageButton6" runat="server" Height="45px" ImageUrl="~/Images/icons8-trophy-filled-50BLACK.png" />
         </asp:Panel>
         <br />
         <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/welcome 316.PNG" />

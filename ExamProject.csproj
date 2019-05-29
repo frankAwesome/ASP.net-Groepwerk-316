@@ -32,6 +32,18 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="ExamProject-Deployment" Order="1">
+          <Destination Path="" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Data Source=.\SQLEXPRESS%3bAttachDbFilename=|DataDirectory|SchedulingDatabase.mdf%3bIntegrated Security=True%3bUser Instance=True" ScriptSchema="True" ScriptData="False" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Debug\AutoScripts\ExamProject-Deployment_SchemaOnly.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
+    <IncludeIisSettings>true</IncludeIisSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,15 +82,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\1note.PNG" />
+    <Content Include="Images\2important.PNG" />
+    <Content Include="Images\3important.PNG" />
+    <Content Include="App_Data\SchedulingDatabase.mdf" />
+    <Content Include="App_Data\SchedulingDatabase_log.ldf">
+      <DependentUpon>SchedulingDatabase.mdf</DependentUpon>
+    </Content>
     <Content Include="Error.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\burst time.PNG" />
     <Content Include="Images\byWho.PNG" />
+    <Content Include="Images\Full note.PNG" />
     <Content Include="Images\icons8-add-new-filled-50.png" />
     <Content Include="Images\icons8-appointment-scheduling-filled-50.png" />
     <Content Include="Images\icons8-appointment-scheduling-filled-50RED.png" />
     <Content Include="Images\icons8-appointment-scheduling-filled-50WHITE.png" />
     <Content Include="Images\icons8-appointment-scheduling-filled-50YELLOW.png" />
+    <Content Include="Images\icons8-circle-filled-50.png" />
+    <Content Include="Images\icons8-circle-filled-50BLUE.png" />
+    <Content Include="Images\icons8-circle-filled-50RED.png" />
+    <Content Include="Images\icons8-circle-filled-50YELLOW.png" />
     <Content Include="Images\icons8-dog-house-filled-50.png" />
     <Content Include="Images\icons8-dog-house-filled-50WHITE.png" />
     <Content Include="Images\icons8-plus-64.png" />
@@ -89,6 +113,7 @@
     <Content Include="Images\icons8-slider--filled-50.png" />
     <Content Include="Images\icons8-slider--filled-50WHITE.png" />
     <Content Include="Images\icons8-trophy-filled-50.png" />
+    <Content Include="Images\icons8-trophy-filled-50BLACK.png" />
     <Content Include="Images\icons8-view-filled-50.png" />
     <Content Include="Images\icons8-view-filled-50WHITE.png" />
     <Content Include="Images\MQ logo.PNG" />
@@ -98,6 +123,7 @@
     <Content Include="Images\process2.PNG" />
     <Content Include="Images\process3.PNG" />
     <Content Include="Images\process4.PNG" />
+    <Content Include="Images\Queue.PNG" />
     <Content Include="Images\renderforest-logo2.jpg" />
     <Content Include="Images\renderforest-logo3.png" />
     <Content Include="Images\renderforest-logo3INVERT.png" />
