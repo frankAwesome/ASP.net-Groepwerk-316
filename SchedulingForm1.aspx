@@ -24,6 +24,8 @@
             <asp:ImageButton ID="ImageButton6" runat="server" Height="45px" ImageUrl="~/Images/icons8-slider--filled-50.png" OnClick="ImageButton6_Click" />
             &nbsp;
             <asp:ImageButton ID="ImageButton7" runat="server" Height="45px" ImageUrl="~/Images/icons8-trophy-filled-50BLACK.png" OnClick="ImageButton7_Click" />
+            &nbsp;&nbsp;
+            <asp:ImageButton ID="ImageButton8" runat="server" Height="45px" ImageUrl="~/Images/icons8-system-task-64.png" OnClick="ImageButton8_Click" />
         </asp:Panel>
         <br />
         <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/MQ logo.PNG" />

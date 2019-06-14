@@ -24,20 +24,22 @@
             <asp:ImageButton ID="ImageButton5" runat="server" Height="45px" ImageUrl="~/Images/icons8-slider--filled-50.png" style="margin-top: 0px" />
             &nbsp;
             <asp:ImageButton ID="ImageButton6" runat="server" Height="45px" ImageUrl="~/Images/icons8-trophy-filled-50BLACK.png" />
+            &nbsp;&nbsp;
+            <asp:ImageButton ID="ImageButton7" runat="server" Height="45px" ImageUrl="~/Images/icons8-system-task-64.png" OnClick="ImageButton7_Click" />
         </asp:Panel>
         <br />
         <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/welcome 316.PNG" />
         <br />
-        <br />
-        <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/icons8-plus-64.png" />
         <br />
-        <br />
-        <br />
         <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/MQ logo.PNG" />
+        <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Image ID="Image7" runat="server" ImageUrl="~/Images/icons8-plus-64.png" />
     <p>
-        &nbsp;</p>
+        <asp:Image ID="Image8" runat="server" ImageUrl="~/Images/virtualmem.PNG" />
+        </p>
     <p>
         <asp:Image ID="Image5" runat="server" Height="24px" ImageUrl="~/Images/byWho.PNG" />
         </p>

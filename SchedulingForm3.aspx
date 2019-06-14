@@ -23,6 +23,8 @@
             &nbsp;&nbsp;
             <asp:ImageButton ID="ImageButton5" runat="server" Height="45px" ImageUrl="~/Images/icons8-slider--filled-50.png" OnClick="ImageButton5_Click" />
             &nbsp;&nbsp;<asp:ImageButton ID="ImageButton6" runat="server" Height="45px" ImageUrl="~/Images/icons8-trophy-filled-50.png" />
+            &nbsp;&nbsp;
+            <asp:ImageButton ID="ImageButton7" runat="server" Height="45px" ImageUrl="~/Images/icons8-system-task-64.png" OnClick="ImageButton7_Click" />
         </asp:Panel>
         <br />
         <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/results.PNG" />
